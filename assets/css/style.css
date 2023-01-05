@@ -81,7 +81,7 @@ header nav a.getStartedButton:hover{
 header h1 {
     margin: 5vh auto 2vh;
     font-family: 'Graphik-regular';
-    width: max-content;
+    width: fit-content;
 }
 header figure {
     width: 100%;
@@ -300,4 +300,53 @@ footer section p a{
     color: #2B2C2E;
     text-decoration: none;
     font-family: 'Graphik-medium';
+}
+
+
+
+/* ##############################
+    media Queries
+#################################*/
+
+@media only screen and (max-width: 768px) {
+     h1{
+        text-align: center;
+    }
+    header {
+        height: fit-content;
+    }
+    main section {
+        margin: 20vh 0 
+    }
+    main section.deliverables {
+        flex-wrap: wrap;
+        
+    }
+    main section.deliverables figure{
+        margin: auto;
+        width: 70%;
+    }
+    main section.deliverables article{
+        margin: auto;
+        width: 100%;
+            
+    }
+    main section.workWithUs {
+        flex-wrap: wrap;
+        
+    }
+    main section.workWithUs article{
+        width: 100%;
+    }
+    main section.critique {
+        background-size: contain;
+    }
+    main section.critique article.conversion p {
+        width: 100%;
+        margin: auto;
+        width: fit-content;
+    }
+    main section.critique article.conversion figure {
+        bottom: 20%;
+    }
 }
