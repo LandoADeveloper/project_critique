@@ -14,7 +14,6 @@ function toggleLight() {
         
         elems.forEach(elem => {
             elem.style.color = "white"
-            //elem.style.removeProperty("color")
         })
         body.style.backgroundColor = "black"
     }else {
