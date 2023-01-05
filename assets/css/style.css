@@ -1,0 +1,303 @@
+/* ##############################
+    Font Import
+#################################*/
+@font-face {
+    font-family: 'Theinhardt';
+    src: url("../fonts/Lev3_3_Project_css-vertiefung_design-Review-fonts/Theinhardt-Lt.woff");
+}
+
+@font-face {
+    font-family: 'Graphik-medium';
+    src: url("../fonts/Lev3_3_Project_css-vertiefung_design-Review-fonts/Graphik-Medium.ttf");
+}
+@font-face {
+    font-family: 'Graphik-regular';
+    src: url("../fonts/Lev3_3_Project_css-vertiefung_design-Review-fonts/Graphik-Regular.woff");
+}
+@font-face {
+    font-family: 'TiemposHeadline-Semibold';
+    src: url("../fonts/Lev3_3_Project_css-vertiefung_design-Review-fonts/TiemposHeadline-Semibold.woff");
+}
+
+/* ##############################
+    General Setting
+#################################*/
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* ##############################
+    Color palette
+#################################*/
+/* 
+    / #2B2C2E /  #9FA2A7 / #27282A /  #848689 / #3D3E41 / #fff
+
+*/
+
+
+/* ##############################
+    Header
+#################################*/
+header {
+    height: 100vh;
+
+}
+header nav {
+    padding-top: 2vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+header nav article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav article a {
+    text-decoration: none;
+    color: #2B2C2E;
+    font-family: 'Graphik-regular';
+    margin: 0.5vw;
+}
+header nav h2 {
+    color: #2B2C2E;
+    font-family: 'TiemposHeadline-Semibold';
+}
+header nav a.getStartedButton{
+    font-family: 'Graphik-medium';
+    color: #2B2C2E;
+    text-decoration: none;
+    border: 1px solid #2B2C2E;
+    padding: 5px 3vw;
+}
+header nav a.getStartedButton:hover{
+    background-color: #2B2C2E;
+    color: #fff;
+}
+
+header h1 {
+    margin: 5vh auto 2vh;
+    font-family: 'Graphik-regular';
+    width: max-content;
+}
+header figure {
+    width: 100%;
+}
+header figure img {
+    width: 100%;
+}
+
+
+
+/* ##############################
+    Main
+#################################*/
+main {
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid #2B2C2E;;
+}
+
+main section {
+    margin: 30vh 0vw;
+}
+
+
+
+/* ##############################
+    Section flatrate
+#################################*/
+main section.flatrate {
+    display: flex;
+}
+main section.flatrate p{
+    font-family: 'Graphik-medium';
+    width: 70%;
+    font-size: 1.5rem;
+}
+main section.flatrate  article {
+    margin-left: 10vw ;
+}
+main section.flatrate  article p.flatratePrice {
+    font-size: 4rem;
+}
+main section.flatrate  article p.flatrateText {
+    font-family: 'Theinhardt';
+    color: #9FA2A7;
+    font-size: 1.5rem;
+
+}
+
+
+
+/* ##############################
+    Section deliverables
+#################################*/
+main section.deliverables {
+    display: flex;
+    
+}
+
+main section.deliverables figure{
+    width: 50%;
+}
+main section.deliverables figure img {
+    width: 100%;
+}
+
+main section.deliverables article {
+    margin-left: 5vw;
+    width: 50%;
+}
+
+main section.deliverables article h2 {
+    font-family: 'TiemposHeadline-Semibold';
+    font-size: 3rem;
+    margin-bottom: 7vh;
+}
+
+main section.deliverables article section {
+    margin: 5vh 0vw;
+
+}
+
+main section.deliverables article section h3 {
+    font-family: 'Graphik-medium';
+    color: #2B2C2E;
+    margin-bottom: 2vh;
+}
+main section.deliverables article section p {
+    font-family: 'Theinhardt';
+    color: #9FA2A7;
+    font-size: 1.5rem;
+}
+
+
+
+/* ##############################
+    Section workWithUs
+#################################*/
+main section.workWithUs {
+    display: flex;
+    background-color: rgb(222, 222, 222);
+    padding: 5vh 5vw;
+}
+
+main section.workWithUs article {
+    width: 50%;
+
+}
+main section.workWithUs article h2 {
+    font-family: 'TiemposHeadline-Semibold';
+    font-size: 3rem;
+    margin: 5vh 0 2vh;
+}
+main section.workWithUs article p, li {
+    font-family: 'Theinhardt';
+    font-size: 1.5rem;
+    color: #9FA2A7;
+}
+
+main section.workWithUs article ol {
+    margin: 0vh 2vw;
+}
+
+main section.workWithUs figure {
+    width: 50%;
+}
+main section.workWithUs figure img {
+    width: 100%;
+}
+
+
+
+
+/* ##############################
+    Section critique
+#################################*/
+main section.critique {
+    background-image: url("../img/Lev3_3_Project_css-vertiefung_design-Review/28.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+}
+main section.critique article.heading {
+    margin-bottom: 20vh;
+    text-align: center;
+}
+main section.critique article.heading h2 {
+    font-family: 'TiemposHeadline-Semibold';
+    font-size: 3rem;
+    margin: 5vh 0 2vh;
+}
+main section.critique article.heading p {
+    font-family: 'Theinhardt';
+    width: 50%;
+    color: #9FA2A7;
+    margin: auto;
+}
+main section.critique article.conversion{
+    display: flex;
+
+}
+main section.critique article.conversion p {
+    margin-left: 25vw;
+    width: 25vw;
+    line-height: 2.5rem;
+    font-size: 1rem;
+    color: #9FA2A7;
+    font-family: 'TiemposHeadline-Semibold';
+
+}
+
+main section.critique article.conversion figure{
+    width: 40%;
+    position: absolute;
+    bottom: -10%;
+    right: 10%;
+}
+main section.critique article.conversion figure img{
+    width: 100%;
+
+}
+
+
+
+/* ##############################
+    footer
+#################################*/
+footer {
+    text-align: center;
+}
+footer h2 {
+    font-family: 'TiemposHeadline-Semibold';
+    font-size: 3rem;
+    margin: 5vh auto 10vh;;
+}
+footer section {
+    display: flex;
+    align-items: baseline;;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+footer section figure {
+    width: 10%;
+}
+footer section figure  img{
+    width: 100%;
+}
+
+footer section p {
+    color: #9FA2A7;
+    font-family: 'TiemposHeadline-Semibold';
+    font-size: 1.5rem;
+}
+footer section p a{
+    color: #2B2C2E;
+    text-decoration: none;
+    font-family: 'Graphik-medium';
+}
